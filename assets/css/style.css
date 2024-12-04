@@ -45,7 +45,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 
 .topbar-area {
     padding: 15px 0;
-    background: #25826a;
+    background: #4169E1;
     position: relative;
 }
 
@@ -136,7 +136,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     content: "";
     width: 452px;
     height: 140px;
-    background-color: #25826a;
+    background-color: #4169E1;
     left: 0;
     top: 0;
     z-index: -1;
@@ -148,7 +148,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     content: "";
     width: 720px;
     height: 20px;
-    background: #25826a;
+    background: #4169E1;
     transform: skewX(-10deg);
     z-index: -111;
     left: 12%;
@@ -187,7 +187,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 }
 
 .header-menu ul li a:hover {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .header-menu ul li a i {
@@ -302,7 +302,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     content: "";
     width: 50%;
     height: 100%;
-    background: #25826a;
+    background: #4169E1;
     left: 0;
     top: 0;
     transition: 0.5s;
@@ -320,7 +320,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     content: "";
     width: 50%;
     height: 100%;
-    background: #25826a;
+    background: #4169E1;
     right: 0;
     top: 0;
     transition: 0.5s;
@@ -353,7 +353,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     font-size: 18px;
     color: #ffffff;
     font-family: "Raleway";
-    background: #25826a;
+    background: #4169E1;
     text-decoration: none;
     padding: 16px 27px;
     position: relative;
@@ -406,7 +406,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 
 .Lifesafe-btn.explore a {
     background: #FFF;
-    color: #25826a;
+    color: #4169E1;
 }
 
 .Lifesafe-btn.explore a:hover {
@@ -506,7 +506,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     border-radius: 16px;
     font-size: 16px;
     font-weight: 600;
-    color: #25826a;
+    color: #4169E1;
     font-family: "Raleway";
     position: relative;
     background: #FFF;
@@ -592,7 +592,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 .video-icon a {
     width: 60px;
     height: 60px;
-    background-color: #25826a;
+    background-color: #4169E1;
     display: inline-block;
     line-height: 60px;
     font-size: 38px;
@@ -670,7 +670,7 @@ video.video-background {
 
 .section-sub-title h4 {
     font-size: 19px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 600;
     font-family: "Raleway";
     margin-bottom: 12px;
@@ -684,7 +684,7 @@ video.video-background {
     content: "";
     width: 82px;
     height: 2px;
-    background: #25826a;
+    background: #4169E1;
     left: 0;
     top: 50%;
 }
@@ -725,7 +725,7 @@ video.video-background {
     content: "";
     width: 100%;
     height: 2px;
-    background-color: #25826a;
+    background-color: #4169E1;
     bottom: 0;
     left: 0;
     transition: all 500ms ease;
@@ -841,7 +841,7 @@ ul.tabs {
 }
 
 .tab.list-tab ul li.current a {
-    background: #25826a !important;
+    background: #4169E1 !important;
     color: #FFF !important;
 }
 
@@ -873,7 +873,7 @@ ul.tabs {
     text-align: center;
     line-height: 56px;
     margin-left: 27px;
-    color: #25826a;
+    color: #4169E1;
 }
 
 .about-us-phone {
@@ -891,7 +891,7 @@ ul.tabs {
     display: block;
     font-size: 18px;
     font-weight: 500;
-    color: #25826a;
+    color: #4169E1;
 }
 
 
@@ -953,7 +953,7 @@ ul.tabs {
     content: "";
     width: 100%;
     height: 3px;
-    background: #25826a;
+    background: #4169E1;
     bottom: 0;
     left: 0;
     border-radius: 5px 5px 0 0;
@@ -993,7 +993,7 @@ ul.tabs {
 }
 
 .service-single-box:hover .service-content h4 a {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .service-content p {
@@ -1056,7 +1056,7 @@ ul.tabs {
 
 .Lifesafe-btn.protection a {
     background: #f5fdff;
-    color: #25826a;
+    color: #4169E1;
 }
 
 .Lifesafe-btn.protection a:hover {
@@ -1096,7 +1096,7 @@ ul.tabs {
 }
 
 .choose-list span i {
-    color: #25826a;
+    color: #4169E1;
     font-weight: 800;
 }
 
@@ -1132,7 +1132,7 @@ ul.tabs {
     content: "";
     width: 62%;
     height: 92%;
-    background: #25826a;
+    background: #4169E1;
     z-index: 99;
     bottom: -71px;
     left: -107px;
@@ -1180,7 +1180,7 @@ ul.tabs {
 }
 
 .insurance-form-box input {
-    background: #309178;
+    background: #FFF;
     width: 278px;
     height: 51px;
     border-radius: 3px;
@@ -1215,7 +1215,7 @@ ul.tabs {
     width: 96%;
     height: 12px;
     border-radius: 3px;
-    background-color: #309178;
+    background-color: #FFF;
 }
 
 .limit-baclance::after {
@@ -1239,7 +1239,7 @@ ul.tabs {
 
 .insurance-form-box-button button {
     font-size: 20px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 500;
     font-family: "Raleway";
     padding: 16px 27px;
@@ -1328,7 +1328,7 @@ ul.tabs {
 
 .testi-single-box:hover::before,
 .testi-single-box:hover::after {
-    border-color: #25826a;
+    border-color: #4169E1;
     width: 100%;
     height: 100%;
 }
@@ -1352,7 +1352,7 @@ ul.tabs {
 }
 
 .testi-icon i {
-    color: #25826a;
+    color: #4169E1;
     font-size: 18px;
 }
 
@@ -1365,7 +1365,7 @@ ul.tabs {
     content: "";
     width: 1px;
     height: 58px;
-    background-color: #25826a;
+    background-color: #4169E1;
     left: 0;
     top: -7px;
 }
@@ -1386,7 +1386,7 @@ ul.tabs {
 
 .testi-qouet i {
     font-size: 100px;
-    color: #25826a;
+    color: #4169E1;
     opacity: 0.071;
 }
 
@@ -1411,7 +1411,7 @@ ul.tabs {
     right: -130px;
     width: 184px;
     height: 91px;
-    background-color: #25826a;
+    background-color: #4169E1;
     padding: 14px 8px 0;
     z-index: 1;
 }
@@ -1421,7 +1421,7 @@ ul.tabs {
     content: "";
     height: 35px;
     width: 40px;
-    background: #25826a;
+    background: #4169E1;
     bottom: -19px;
     right: 20px;
     clip-path: polygon(82% 41%, 106% 40%, 50% 100%, 0% 42%);
@@ -1462,7 +1462,7 @@ ul.tabs {
 
 
 .blog-content {
-    border: 1px solid #25826a;
+    border: 1px solid #4169E1;
     padding: 30px 16px 0px;
     background: rgba(245, 253, 255, 0.180);
     z-index: 1;
@@ -1477,7 +1477,7 @@ ul.tabs {
     left: -58px;
     width: 0;
     height: 100%;
-    background: #25826a;
+    background: #4169E1;
     transition: .5s;
     transform: skew(35deg, 0deg) scale(1.7);
     z-index: -1;
@@ -1494,7 +1494,7 @@ ul.tabs {
     margin-bottom: 31px;
     width: 93px;
     height: 91px;
-    background-color: #25826a;
+    background-color: #4169E1;
     padding: 18px 0 0;
     text-align: center;
     position: relative;
@@ -1529,7 +1529,7 @@ ul.tabs {
 }
 
 .blog-single-box:hover .blog-month h4 {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .blog-month span {
@@ -1541,13 +1541,13 @@ ul.tabs {
 }
 
 .blog-single-box:hover .blog-month span {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .blog-text h4 a {
     font-size: 20px;
     line-height: 24px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 600;
     text-decoration: none;
     transition: ease all 500ms;
@@ -1680,7 +1680,7 @@ ul.tabs {
     content: "";
     width: 3px;
     height: 30px;
-    background: #25826a;
+    background: #4169E1;
     left: 0px;
 }
 
@@ -1698,7 +1698,7 @@ ul.tabs {
     content: "";
     width: 436px;
     height: 500px;
-    background-color: #25826a;
+    background-color: #4169E1;
     left: -42px;
     top: -100px;
     z-index: -1;
@@ -1740,8 +1740,8 @@ ul.tabs {
 }
 
 .footer-social ul li a:hover i {
-    color: #25826a;
-    border: 1px dashed #25826a;
+    color: #4169E1;
+    border: 1px dashed #4169E1;
 }
 
 .footer-social ul li a i::after {
@@ -1785,12 +1785,12 @@ ul.tabs {
 }
 
 .footer-wiget-menu ul li a:hover {
-    color: #25826a;
+    color: #4169E1;
     margin-left: 10px;
 }
 
 .footer-wiget-menu ul li a i {
-    color: #25826a;
+    color: #4169E1;
 }
 
 /* company work */
@@ -1804,7 +1804,7 @@ ul.tabs {
     font-weight: 400;
     padding: 0 0 14px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #25826a;
+    border-bottom: 1px solid #4169E1;
 }
 
 .company-work-hour ul li span {
@@ -1816,7 +1816,7 @@ li.table-brb {
 }
 
 li.table-brb span.style {
-    background: #25826a;
+    background: #4169E1;
     padding: 2px 4px;
     font-size: 14px;
     border-radius: 5px;
@@ -3293,7 +3293,7 @@ circle {
     position: absolute;
     left: 0;
     bottom: -173px;
-    background: #25826a;
+    background: #4169E1;
     padding: 23px 35px;
     border-radius: 5px 5px 0 0;
 }
@@ -3324,7 +3324,7 @@ circle {
 }
 
 .bratcome-text ul li a:hover {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .bratcome-text ul li a::before {
@@ -3502,7 +3502,7 @@ circle {
 }
 
 span.fill {
-    background: #25826a !important;
+    background: #4169E1 !important;
     border-radius: 0px 15px 15px 0px;
 }
 
@@ -3563,7 +3563,7 @@ span.fill {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #25826a;
+    background: #4169E1;
     border-radius: 50%;
     transform: scale(0);
     transition: .5s;
@@ -3625,7 +3625,7 @@ span.fill {
     right: 0;
     margin: auto;
     transition: all 0.5s linear 0s;
-    background-color: #25826a;
+    background-color: #4169E1;
     content: "";
     z-index: -1;
 }
@@ -3656,7 +3656,7 @@ span.fill {
 /* widget contact box */
 
 .widget-contact-box {
-    background: #25826a;
+    background: #4169E1;
     text-align: center;
     padding: 63px 30px 57px;
     margin-bottom: 40px;
@@ -3701,7 +3701,7 @@ span.fill {
     font-size: 24px;
     color: #ffffff;
     font-weight: 600;
-    background: #25826a;
+    background: #4169E1;
     text-decoration: none;
     padding: 22px 76px;
     transition: .5s;
@@ -3775,7 +3775,7 @@ span.fill {
     content: "";
     width: 14px;
     height: 14px;
-    background-color: #25826a;
+    background-color: #4169E1;
     left: 0;
     top: 9px;
 }
@@ -3830,7 +3830,7 @@ span.fill {
 }
 
 .project-grid-content h4 a:hover {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .project-grid-content p {
@@ -3856,7 +3856,7 @@ span.fill {
     font-size: 32px;
     width: 90px;
     height: 90px;
-    background-color: #25826a;
+    background-color: #4169E1;
     line-height: 90px;
     text-align: center;
     border-radius: 30px 0px 0px 0px;
@@ -3866,7 +3866,7 @@ span.fill {
 
 .project-grid-icon a:hover {
     background: #fff;
-    color: #25826a;
+    color: #4169E1;
 }
 
 /*==================================================
@@ -3972,7 +3972,7 @@ span.fill {
 }
 
 .blog-details-tag {
-    border: 1px solid #25826a;
+    border: 1px solid #4169E1;
     padding: 24px 38px;
     margin-bottom: 55px;
 }
@@ -3987,7 +3987,7 @@ span.fill {
 
 .blog-details-tag a {
     font-size: 16px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
@@ -4012,7 +4012,7 @@ span.fill {
     width: 0%;
     right: 0;
     margin: auto;
-    background: #25826a;
+    background: #4169E1;
     z-index: -1;
     border-radius: 3px;
     transition: .5s;
@@ -4063,13 +4063,13 @@ span.fill {
 
 .row.blog-item {
     padding: 20px 68px 20px;
-    border-top: 1px solid #25826a;
-    border-bottom: 1px solid #25826a;
+    border-top: 1px solid #4169E1;
+    border-bottom: 1px solid #4169E1;
 }
 
 .blog-item-content h4 {
     font-size: 20px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 500;
 }
 
@@ -4101,7 +4101,7 @@ span.fill {
     bottom: -10px;
     width: 70px;
     height: 3px;
-    background: #25826a;
+    background: #4169E1;
     content: "";
     left: 0;
 }
@@ -4195,7 +4195,7 @@ span.fill {
     width: 0%;
     right: 0;
     margin: auto;
-    background: #25826a;
+    background: #4169E1;
     z-index: -1;
     border-radius: 3px;
     transition: .5s;
@@ -4225,7 +4225,7 @@ span.fill {
     bottom: -10px;
     width: 70px;
     height: 3px;
-    background: #25826a;
+    background: #4169E1;
     content: "";
     left: 0;
 }
@@ -4270,7 +4270,7 @@ span.fill {
     width: 210px;
     height: 60px;
     border-radius: 3px;
-    background-color: #25826a;
+    background-color: #4169E1;
     border: 0;
     outline: 0;
     font-size: 19px;
@@ -4346,7 +4346,7 @@ button.icons {
     top: 0;
     height: 60px;
     width: 60px;
-    background: #25826a;
+    background: #4169E1;
     border-radius: 0 3px 3px 0;
 }
 
@@ -4360,7 +4360,7 @@ button.icons {
 
 .widget-recent-title h4 {
     font-size: 30px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 600;
     margin-bottom: 40px;
     border-bottom: 1px solid #ece6e6;
@@ -4395,7 +4395,7 @@ button.icons {
 }
 
 .recent-widget-meta span i {
-    color: #25826a;
+    color: #4169E1;
     font-size: 12px;
     margin-right: 8px;
 }
@@ -4409,7 +4409,7 @@ button.icons {
 }
 
 .sidber-widget-recent-post:hover .recent-widget-title h4 a {
-    color: #25826a;
+    color: #4169E1;
 }
 
 /* widget recent menu */
@@ -4430,7 +4430,7 @@ button.icons {
     width: 0;
     height: 1px;
     transition: all 0.5s linear 0s;
-    background-color: #25826a;
+    background-color: #4169E1;
     content: "";
     z-index: -1;
 }
@@ -4452,7 +4452,7 @@ button.icons {
 }
 
 .widget-recent-menu ul li a:hover {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .widget-recent-menu ul li a span {
@@ -4490,7 +4490,7 @@ button.icons {
     width: 0%;
     right: 0;
     margin: auto;
-    background: #25826a;
+    background: #4169E1;
     z-index: -1;
     border-radius: 3px;
     transition: .5s;
@@ -4514,7 +4514,7 @@ button.icons {
 }
 
 .contact-single-box {
-    background: #25826a;
+    background: #4169E1;
     padding: 60px 18px 30px;
 }
 
@@ -4523,7 +4523,7 @@ button.icons {
     line-height: 60px;
     color: #ffffff;
     font-weight: 600;
-    border-bottom: 1px solid #25826a;
+    border-bottom: 1px solid #4169E1;
     padding: 0 0 7px;
     margin-bottom: 30px;
 }
@@ -4539,7 +4539,7 @@ button.icons {
     margin-right: 20px;
     width: 55px;
     height: 59px;
-    background-color: #25826a;
+    background-color: #4169E1;
     display: inline-block;
     text-align: center;
     line-height: 59px;
@@ -4552,7 +4552,7 @@ button.icons {
 
 .contact-content h4 {
     font-size: 24px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 500;
 }
 
@@ -4568,7 +4568,7 @@ button.icons {
 .contact-box-title h4 {
     font-size: 48px;
     line-height: 60px;
-    color: #25826a;
+    color: #4169E1;
     font-weight: 600;
     margin-bottom: 35px;
 }
@@ -4621,7 +4621,7 @@ button.icons {
 }
 
 .accordion li a.inner i {
-    background: #25826a;
+    background: #4169E1;
 }
 
 .accordion a.active {
@@ -4794,7 +4794,7 @@ ul.accordion ul li a span {
 .sidebar-group ul.list-style-one li i {
     font-size: 20px;
     font-weight: 600;
-    color: #25826a;
+    color: #4169E1;
     margin: 0 10px 0 0px;
 }
 
@@ -4825,7 +4825,7 @@ ul.accordion ul li a span {
 
 .sidebar-group ul.social-box li a:hover {
     background: var(--primary-color);
-    color: #25826a;
+    color: #4169E1;
 }
 
 
@@ -4871,7 +4871,7 @@ ul.accordion ul li a span {
 }
 
 .sidebar-widget-menu ul li .home-menu-title h4 a:hover {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .sidebar-widget-menu ul li .home-menu-title h4 a::before {
@@ -5094,7 +5094,7 @@ span.flaticon-multiply i {
     text-align: center;
     line-height: 46px;
     font-size: 16px;
-    color: #25826a;
+    color: #4169E1;
     left: 0;
     top: 0;
     height: 46px;
@@ -5107,7 +5107,7 @@ span.flaticon-multiply i {
 }
 
 .prgoress_scrollup:hover::after {
-    color: #25826a;
+    color: #4169E1;
 }
 
 .prgoress_scrollup svg path {
@@ -5115,7 +5115,7 @@ span.flaticon-multiply i {
 }
 
 .prgoress_scrollup svg.progress-circle path {
-    stroke: #25826a;
+    stroke: #4169E1;
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear !important;
@@ -5304,7 +5304,7 @@ span.flaticon-multiply i {
   }
   
   .shifa-preloader .animation-preloader .txt-loading .letters-loading:before{
-     color: #25826a; 
+     color: #4169E1; 
   }
 
   .shifa-preloader.style-two .animation-preloader .txt-loading .letters-loading:before{
