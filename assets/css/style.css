@@ -1659,7 +1659,7 @@ ul.tabs {
     bottom: 17px;
     width: 3px;
     height: 30px;
-    background-color: #21c8a9;
+    background-color: #4169E1;
     top: 0;
     left: 0;
 }
@@ -1697,7 +1697,7 @@ ul.tabs {
     position: absolute;
     content: "";
     width: 436px;
-    height: 500px;
+    height: 490px;
     background-color: #4169E1;
     left: -42px;
     top: -100px;
@@ -1711,10 +1711,11 @@ ul.tabs {
 
 .footer-wiget-text h4 {
     margin: 0px 0 22px;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 28px;
     color: #ffffff;
     font-weight: 400;
+    font-style: italic;
 }
 
 /* footer social */
