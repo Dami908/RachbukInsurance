@@ -1187,7 +1187,7 @@ ul.tabs {
     border: 0;
     outline: 0;
     padding: 0 20px;
-    color: #FFF;
+    color: #111111;
     margin-bottom: 25px;
 }
 
@@ -3263,7 +3263,7 @@ circle {
 
 
 .breatcome-area {
-    background: url(../images/resource/bretcome-bg.jpg);
+    background: url(../images/resource/Contact-Us_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -4562,6 +4562,10 @@ button.icons {
     line-height: 34px;
     color: #757575;
     font-weight: 400;
+}
+
+.contact-content h6.secondary-number {
+    margin-left: 75px; /* Moves the second number forward */
 }
 
 /* contact box title */

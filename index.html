@@ -40,52 +40,18 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+	<script>
+        // Clear the form on page load or when the back button is used
+        window.onload = () => {
+            const form = document.getElementById("it-form");
+            if (form) {
+                form.reset();
+            }
+        };
+    </script>
 </head>
 
 <body>
-	<!-- loder -->
-	<!-- <div class="loader-wrapper">
-		<div class="loader-wrap">
-			<div class="preloader">
-				<div id="shifa-preloader" class="shifa-preloader">
-					<div class="layer layer-one"><span class="overlay"></span></div>
-					<div class="animation-preloader">
-						<div class="spinner"></div>
-						<div class="txt-loading">
-							<span data-text-preloader="L" class="letters-loading">
-								L
-							</span>
-							<span data-text-preloader="I" class="letters-loading">
-								I
-							</span>
-							<span data-text-preloader="F" class="letters-loading">
-								F
-							</span>
-							<span data-text-preloader="E" class="letters-loading">
-								E
-							</span>
-							<span data-text-preloader="S" class="letters-loading">
-								S
-							</span>
-							<span data-text-preloader="A" class="letters-loading">
-								A
-							</span>
-							<span data-text-preloader="F" class="letters-loading">
-								F
-							</span>
-							<span data-text-preloader="E" class="letters-loading">
-								E
-							</span>
-						</div>
-					</div>  
-				</div>
-			</div>
-		</div>
-		<div class="loader"></div>
-		<div class="loder-section left-section"></div>
-		<div class="loder-section right-section"></div>
-	</div> -->
-
 	<!--==================================================-->
 	<!-- Start Topbar Area -->
 	<!--==================================================-->
@@ -618,7 +584,7 @@
 	<!--==================================================-->
 
 
-	<!--==================================================-->
+	<!-- ==================================================-->
 	<!-- Start Insurance Area -->
 	<!--==================================================-->
 	<div class="insurance-area">
@@ -627,10 +593,10 @@
 				<div class="col-lg-12">
 					<div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">
 						<div class="section-sub-title">
-							<h4>Check Your Favorite Insurance</h4>
+							<h4>Got questions?</h4>
 						</div>
 						<div class="section-main-title">
-							<h2>Started Favorite Insurance </h2>
+							<h2>Contact Us Today </h2>
 						</div>
 					</div>
 				</div>
@@ -641,150 +607,45 @@
 						<div class="col-lg-12">
 							<div class="tab insurance-list-tab">
 								<ul class="tabs active">
-									<li class="current"><a href="#">House Insurance</a></li>
-									<li><a href="#">Medical Insurance</a></li>
-									<li><a href="#">Medical Insurance</a></li>
+									<li class="current"><a href="#">We're Here to Help!</a></li>
 								</ul>
 								<div class="tab_content">
 									<div class="tabs_item">
 										<div class="insurance-form">
-											<form action="https://formspree.io/f/myyleorq" method="POST" id="it-form">
+											<form action="https://formspree.io/f/xgvebjnn" method="POST" id="it-form">
 												<div class="row">
 													<div class="col-lg-6">
 														<div class="insurance-form-box">
-															<label for="name">Your Full Name</label><br>
-															<input type="text" id="name" name="name">
+															<label for="name">Your Full Name<span style="color: red;">*</span></label><br>
+															<input type="text" id="name" name="name" required>
 														</div>
 													</div>
 													<div class="col-lg-6">
 														<div class="insurance-form-box">
-															<label for="phone">Phone</label><br>
-															<input type="text" id="phone" name="phone">
+															<label for="phone">Phone<span style="color: red;">*</span></label><br>
+															<input type="text" id="phone" name="phone" required>
 														</div>
 													</div>
 													<div class="col-lg-6">
 														<div class="insurance-form-box">
-															<label for="email">Email Address *</label><br>
-															<input type="text" id="email" name="email">
+															<label for="email">Email Address<span style="color: red;">*</span></label><br>
+															<input type="text" id="email" name="email" required>
 														</div>
 													</div>
 													<div class="col-lg-6">
 														<div class="insurance-form-box">
-															<label for="subject">Insurance Type</label><br>
-															<input type="text" id="subject" name="subject">
-														</div>
-													</div>
-													<div class="col-lg-12">
-														<div class="limit-title">
-															<h4>Limite Of Balance</h4>
-														</div>
-														<div class="limit-baclance"></div>
-														<div class="limit-value">
-															<h4>Selected Value: 4000</h4>
+															<label for="email">Question<span style="color: red;">*</span></label><br>
+															<input type="text" name="massage" id="massage" required>
 														</div>
 													</div>
 													<div class="col-lg-6">
 														<div class="insurance-form-box-button">
-															<button type="Submit">Get a Guote</button>
+															<button type="Submit">Submit</button>
 														</div>
 													</div>
 												</div>
 											</form>
 											<div id="status"></div>
-										</div>
-									</div>
-									<div class="tabs_item" style="display: none;">
-										<div class="insurance-form">
-											<form action="https://formspree.io/f/myyleorq" method="POST" id="ttime">
-												<div class="row">
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="fname">Your Full Name</label><br>
-															<input type="text" id="fname" name="fname">
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="numbar">Phone</label><br>
-															<input type="text" id="numbar" name="number">
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="mail">Email Address *</label><br>
-															<input type="text" id="mail" name="email">
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="option">Insurance Type</label><br>
-															<input type="text" id="option">
-														</div>
-													</div>
-													<div class="col-lg-12">
-														<div class="limit-title">
-															<h4>Limite Of Balance</h4>
-														</div>
-														<div class="limit-baclance"></div>
-														<div class="limit-value">
-															<h4>Selected Value: 4000</h4>
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box-button">
-															<button type="Submit">Get a Guote</button>
-														</div>
-													</div>
-												</div>
-											</form>
-											<div id="post"></div>
-										</div>
-									</div>
-									<div class="tabs_item" style="display: none;">
-										<div class="insurance-form">
-											<form action="https://formspree.io/f/myyleorq" method="POST" id="tech-time">
-												<div class="row">
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="lname">Your Full Name</label><br>
-															<input type="text" id="lname" name="lname">
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="telephone">Phone</label><br>
-															<input type="text" id="telephone" name="telephone">
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="gmail">Email Address *</label><br>
-															<input type="text" id="gmail" name="gmail">
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box">
-															<label for="choose">Insurance Type</label><br>
-															<input type="text" id="choose" name="choose">
-														</div>
-													</div>
-													<div class="col-lg-12">
-														<div class="limit-title">
-															<h4>Limite Of Balance</h4>
-														</div>
-														<div class="limit-baclance"></div>
-														<div class="limit-value">
-															<h4>Selected Value: 4000</h4>
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<div class="insurance-form-box-button">
-															<button type="Submit">Get a Guote</button>
-														</div>
-													</div>
-												</div>
-											</form>
-											<div id="POST"></div>
 										</div>
 									</div>
 								</div>
@@ -796,7 +657,7 @@
 					<div class="google-map wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.0089055157337!2d3.359058274481176!3d6.645814621730935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93846e4ac08f%3A0x2e92f1dfe66080dc!2sRachbuk%20Insurance%20Brokers%20Limited!5e0!3m2!1sen!2sca!4v1733528954275!5m2!1sen!2sca"
-							width="1020" height="743" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							width="1020" height="619" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>
 			</div>
@@ -805,7 +666,7 @@
 
 	<!--==================================================-->
 	<!-- End Insurance Area -->
-	<!--==================================================-->
+	<!--================================================== -->
 
 	<!--==================================================-->
 	<!-- Start Testimonial Area -->
@@ -826,9 +687,7 @@
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="testimonial-discription wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-							viverra maecenas accumsan lacus vel facilisis. </p>
+						<p>Our customers are at the heart of everything we do. Don’t just take our word for it—hear from those who have experienced our services firsthand. From exceptional support to outstanding results, see why we’re trusted by so many.</p>
 					</div>
 				</div>
 			</div>
@@ -1031,7 +890,7 @@
 											<li><a href="blog-details.html">Blog Details</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="contact.html" data-toggle="dropdown">Contacts</a></li>
+									<li class="dropdown"><a href="contact.html" data-toggle="dropdown">Contact Us</a></li>
 								</ul>
 							</div>
 							<div class="contact-info">

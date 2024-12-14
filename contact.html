@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
+	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/Pngrachbuk.png ">
 	<!-- bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
 	<!-- carousel CSS -->
@@ -40,52 +40,16 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script>
+        // Clear the form on page load or when the back button is used
+        window.onload = () => {
+            const form = document.getElementById("it-form");
+            if (form) {
+                form.reset();
+            }
+        };
+    </script>
 </head>
-
-<body>
-	<!-- loder -->
-	<!-- <div class="loader-wrapper">
-		<div class="loader-wrap">
-			<div class="preloader">
-				<div id="shifa-preloader" class="shifa-preloader">
-					<div class="layer layer-one"><span class="overlay"></span></div>
-					<div class="animation-preloader">
-						<div class="spinner"></div>
-						<div class="txt-loading">
-							<span data-text-preloader="L" class="letters-loading">
-								L
-							</span>
-							<span data-text-preloader="I" class="letters-loading">
-								I
-							</span>
-							<span data-text-preloader="F" class="letters-loading">
-								F
-							</span>
-							<span data-text-preloader="E" class="letters-loading">
-								E
-							</span>
-							<span data-text-preloader="S" class="letters-loading">
-								S
-							</span>
-							<span data-text-preloader="A" class="letters-loading">
-								A
-							</span>
-							<span data-text-preloader="F" class="letters-loading">
-								F
-							</span>
-							<span data-text-preloader="E" class="letters-loading">
-								E
-							</span>
-						</div>
-					</div>  
-				</div>
-			</div>
-		</div>
-		<div class="loader"></div>
-		<div class="loder-section left-section"></div>
-		<div class="loder-section right-section"></div>
-	</div> -->
-
 	<!--==================================================-->
 	<!-- Start Topbar Area -->
 	<!--==================================================-->
@@ -188,7 +152,7 @@
 	<div class="mobile-menu-area sticky-menu" id="navbar">
 		<div class="mobile-menu">
 			<div class="mobile-logo">
-				<a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+				<a href="index.html"><img src="assets/images/Rachbuk_logo.PNG" alt="" style="width: 185px; height: 120px;"></a>
 			</div>
 			<div class="side-menu-info">
 				<div class="sidebar-menu">
@@ -210,14 +174,14 @@
 				<div class="col-lg-12 col-md-12">
 					<div class="breatcome-content">
 						<div class="breatcome-title">
-							<h1>Contact</h1>
+							<h1>Contact Us</h1>
 						</div>
-						<div class="bratcome-text">
+						<!-- <div class="bratcome-text">
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li>Contact</li>
 							</ul>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -244,7 +208,8 @@
 							</div>
 							<div class="contact-content">
 								<h4>Address</h4>
-								<h6>7515 Carriage Court,</h6>
+								<h6>RACHBUK HOUSE</h6>
+								<h6>8A, Abiodun Adeyemi Street Ojodu, Lagos</h6>
 							</div>
 						</div>
 						<div class="contact-items">
@@ -252,8 +217,9 @@
 								<i class="bi bi-phone-fill"></i>
 							</div>
 							<div class="contact-content">
-								<h4>Contact Namber</h4>
-								<h6>(+6656) 1598596969</h6>
+								<h4>Contact Number</h4>
+								<h6>(+234) 803 754 4144 </h6>
+								<h6 class="secondary-number">(+234) 808 583 6224</h6>
 							</div>
 						</div>
 						<div class="contact-items">
@@ -262,7 +228,7 @@
 							</div>
 							<div class="contact-content">
 								<h4>Email Us</h4>
-								<h6>example@gmail.com</h6>
+								<h6>rachbukinsbrokers@gmail.com</h6>
 							</div>
 						</div>
 					</div>
@@ -270,44 +236,34 @@
 				<div class="col-lg-8 col-md-12">
 					<div class="contact-box">
 						<div class="contact-box-title">
-							<h4>Get A Quote</h4>
+							<h4>Send us a Direct Message</h4>
 						</div>
-						<form action="https://formspree.io/f/myyleorq" method="POST" id="it-form">
+						<form action="https://formspree.io/f/xgvebjnn" method="POST" id="it-form">
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box">
-										<input type="text" name="name" placeholder="Your Name">
+										<input type="text" name="name" placeholder="Your Full Name" required>
 									</div>
 								</div>
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box">
-										<input type="text" name="email" placeholder="Email Address">
+										<input type="text" name="email" placeholder="Email Address" required>
 									</div>
 								</div>
-								<div class="col-lg-6 col-md-6">
+								<div class="col-lg-12 col-md-6">
 									<div class="form-box">
-										<input type="text" name="phone" placeholder="Phone Numbar">
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<div class="form-box">
-										<input type="text" name="website" placeholder="Website">
-									</div>
-								</div>
-								<div class="col-lg-12">
-									<div class="form-box">
-										<input type="text" name="name" placeholder="Your Company Name">
+										<input type="text" name="phone" placeholder="Phone Number" required>
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12">
 									<div class="form-box">
 										<textarea name="massage" id="massage" cols="30" rows="10"
-											placeholder="Write your question here"></textarea>
+											placeholder="Write your question here" required></textarea>
 									</div>
 								</div>
 								<div class="col-lg-12 col-md-12">
 									<div class="form-box-button">
-										<button type="Submit"> Get a quote</button>
+										<button type="Submit"> Submit</button>
 									</div>
 								</div>
 							</div>
@@ -331,7 +287,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12">
 					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7496149.95373021!2d85.84621250756469!3d23.452185887261447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1635150422284!5m2!1sen!2sbd"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.0089055157337!2d3.359058274481176!3d6.645814621730935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93846e4ac08f%3A0x2e92f1dfe66080dc!2sRachbuk%20Insurance%20Brokers%20Limited!5e0!3m2!1sen!2sca!4v1733528954275!5m2!1sen!2sca"
 						width="1920" height="608" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div>
 			</div>
@@ -357,17 +313,12 @@
 					<div class="sidebar-info-contents">
 						<div class="content-inner">
 							<div class="sidebar-logo">
-								<a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+								<a href="index.html"><img src="assets/images/Rachbuk_logo.PNG" alt="logo" style="width: 185px; height: 120px;"></a>
 							</div>
 							<div class="sidebar-widget-menu">
 								<ul>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Home <i
+									<li class="dropdown"><a href="index.html" data-toggle="dropdown">Home <i
 												class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="index.html">Home One</a></li>
-											<li><a href="index-2.html">Home Two</a></li>
-											<li><a href="index-3.html">Home Three</a></li>
-										</ul>
 									</li>
 									<li class="dropdown"><a href="about.html" data-toggle="dropdown">About</a></li>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Service <i
@@ -402,16 +353,17 @@
 											<li><a href="blog-details.html">Blog Details</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="contact.html" data-toggle="dropdown">Contacts</a></li>
+									<li class="dropdown"><a href="contact.html" data-toggle="dropdown">Contact Us</a></li>
 								</ul>
 							</div>
 							<div class="contact-info">
 								<h2>Contact Info</h2>
 								<ul class="list-style-one">
-									<li><i class="bi bi-geo-alt-fill"></i>6391 Elgin St. Celina, Delaware</li>
-									<li><i class="bi bi-telephone-fill"></i>(+001) 123-456-789</li>
-									<li><i class="bi bi-envelope"></i> info@example.com</li>
-									<li><i class="bi bi-alarm-fill"></i> Week Days: 08.00 to 10.00
+									<li><i class="bi bi-geo-alt-fill"></i>RACHBUK HOUSE / 8A, Abiodun Adeyemi Street Ojodu, Lagos</li>
+									<li><i class="bi bi-telephone-fill"></i>(+234) 803 754 4144</li>
+									<li><i class="bi bi-telephone-fill"></i>(+234) 808 583 6224</li>
+									<li><i class="bi bi-envelope"></i>rachbukinsbrokers@gmail.com</li>
+									<li><i class="bi bi-alarm-fill"></i> Week Days: 09.00am to 05.00pm
 									</li>
 								</ul>
 							</div>
@@ -522,7 +474,6 @@
 	<!--==================================================-->
 	<!-- End scrollup section Area -->
 	<!--==================================================-->
-
 
 	<!-- jquery js -->
 	<script src="assets/js/vendor/jquery-3.6.2.min.js"></script>
