@@ -3269,6 +3269,13 @@ circle {
     background-position: center center;
     padding: 154px 0;
 }
+.breatcomeblog-area {
+    background: url(../images/resource/rach_nespap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 154px 0;
+}
 
 .breatcome-content {
     position: relative;
