@@ -3276,6 +3276,13 @@ circle {
     background-position: center center;
     padding: 154px 0;
 }
+.breatcomeabout-area {
+    background: url(../images/resource/A_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 154px 0;
+}
 
 .breatcome-content {
     position: relative;
@@ -3369,10 +3376,37 @@ circle {
 .team-area {
     padding: 120px 0 200px;
 }
+.team-areas {
+    padding: 30px 0 200px;
+}
 
 .team-single-box {
     background: #f1f1f1;
     padding: 0 15px 28px;
+    position: relative;
+    top: 75px;
+}
+.team-single-box1 {
+    background: #f1f1f1;
+    padding: 0 15px 105px;
+    position: relative;
+    top: 75px;
+}
+.team-single-box2 {
+    background: #f1f1f1;
+    padding: 0 15px 130px;
+    position: relative;
+    top: 75px;
+}
+.team-single-box4 {
+    background: #f1f1f1;
+    padding: 0 15px 285px;
+    position: relative;
+    top: 75px;
+}
+.team-single-box5 {
+    background: #f1f1f1;
+    padding: 0 15px 262px;
     position: relative;
     top: 75px;
 }
